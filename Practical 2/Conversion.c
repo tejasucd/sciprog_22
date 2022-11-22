@@ -26,10 +26,10 @@ int main(void) {
    binnum[i] = '\0';
        
 //Computing no. of digits
-numdigits = ceil(logf(fnum)/logf(2));
+   numdigits = ceil(logf(fnum)/logf(2));
    printf("The no. of digits is %d\n",numdigits);
 
-
+// printing number in various forms
    printf("inum=%d,  fnum=%f,  inum in binary=%s\n",inum,fnum,binnum);
 
 }
